@@ -1015,6 +1015,9 @@ public class IabHelper implements PurchasesUpdatedListener {
                     @Override
                     public void onAcknowledgePurchaseResponse(BillingResult billingResult) {
                         IabResult result;
+
+                        flagEndAsync();
+
                         if (billingResult.getResponseCode() == BillingResponseCode.OK) {
                             // Handle the success of the acknowledge operation.
                             Log.d(TAG, "Successfully acknowledged purchase");

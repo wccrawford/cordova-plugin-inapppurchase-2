@@ -58,7 +58,7 @@
     <source-file src="src/android/Security.java" target-dir="app/src/main/java/com/alexdisler/inapppurchases" />
     <source-file src="src/android/IabSkuDetails.java" target-dir="app/src/main/java/com/alexdisler/inapppurchases" />
 
-    <framework src="com.android.billingclient:billing:5.0.0" />
+    <framework src="com.android.billingclient:billing:7.0.0" />
   </platform>
 
 </plugin>
